@@ -19,10 +19,10 @@ head:
         # The start URL of the web application
         start_url: 
         # The default theme color for the application
-        theme_color: 
+        theme_color:
         # A placeholder background color for the application page to display
         # before its stylesheet is loaded
-        background_color: 
+        background_color:
         # The preferred display mode for the website
         display: standalone
         # Image files that can serve as application icons for different contexts
@@ -39,7 +39,7 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 
+        title:
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
@@ -105,11 +105,10 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        홈: /
+        아카이브: /archives
+        카테고리: /categories
+        테그: /tags
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
@@ -134,7 +133,7 @@ article:
     highlight:
         # Code highlight themes
         # https://github.com/highlightjs/highlight.js/tree/master/src/styles
-        theme: atom-one-light
+        theme: github-dark
         # Show copy code button
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
@@ -223,11 +222,11 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Jeong Hwan
         # Author title
         author_title: Your title
         # Author's current location
-        location: Your location
+        location:
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
